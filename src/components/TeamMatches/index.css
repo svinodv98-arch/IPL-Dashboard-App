@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.team-matches-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #1e293b;
+  font-family: 'Bree Serif';
+  padding: 30px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-matches-container {
+    padding: 60px 40px;
+  }
+}
+
+.rcb {
+  background-color: #a4261d;
+}
+
+.kkr {
+  background-color: #5755a7;
+}
+
+.mi {
+  background-color: #d91c1f;
+}
+
+.csk {
+  background-color: #f7db00;
+}
+
+.srh {
+  background-color: #da237b;
+}
+
+.dc {
+  background-color: #13418b;
+}
+
+.rr {
+  background-color: #f26d22;
+}
+
+.kxp {
+  background-color: #4f5db0;
+}
+
+.team-matches-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.team-banner-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.latest-matches-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-matches-heading {
+    font-size: 24px;
+  }
+}
+
+.recent-matches-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+}
