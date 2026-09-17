@@ -1,0 +1,7 @@
+.pie-chart-bg-container {
+  background-color: #1e293b;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+}
